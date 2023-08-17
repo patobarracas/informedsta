@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+.nav-link {
+    text-transform: capitalize;
+    font-size: 25px;
+    color: white !important;
+    
+}
+
+nav a:hover {
+    color: black !important;
+}
+
+.dropdown-item{
+    text-transform: capitalize;
+}
+
+.encabezado{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+
+   
+} h1{
+    background-color: rgb(0, 195, 255);
+    color:white;
+    text-transform: uppercase;
+    text-align: center;
+    animation-duration: 1s;
+    animation-name: slidein;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 40px;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }}
+
+.tituloh1{
+    overflow: hidden;
+
+    }
+.card {
+        padding: 20px;
+        border: none;
+        align-items: center;
+        text-align: center;
+    }
+
+.card-title{
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform:uppercase;
+        font-weight: bold;
+        color: white;
+}
+.card-text{
+    text-transform: capitalize;
+    color: white;
+}
+
+.card-img-top{
+    width: 600px;
+    border-radius: 50px;
+    display: flex;
+}
+
+.card-img-top:hover 
+    {filter: sepia(100%);}
+
+.fondo{
+    padding: 10px;
+    display: flex;
+}
+.btn:hover{
+    transform: scale(1.05);
+    transition: all 0.9s;}
+
+.img-calingasta{
+    object-fit: cover;
+    height: 500px;
+    width: 600px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.img-calingasta:hover{
+
+    transform: scale(1.05);
+    transition: all 0.9s;
+    border-radius:50%;
+    filter: grayscale(60%);
+}
+
+.p-calingasta{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+
+}
+.p-calingasta2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: black;
+    text-align: justify;
+    text-align: center;
+    padding: 25px;
+    
+
+}
+
+.fondocalingasta{
+    background-color: white;
+    padding: 0%;
+}
+.titulocalingasta{
+    width: 100%;
+    height: 45px;
+    
+}
+
+.p-dotacion{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        text-transform: capitalize;
+        color:black;
+        text-align: left;
+        font-weight: bold;
+    }
+.p-domicilio{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        text-transform: capitalize;
+        color:black;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .img-contacto {
+        width: 100%;
+        height: 700px;
+        object-fit: cover;
+    }
+
+    .jumbotron{
+        width: 100%;
+        height: 400px;
+    }
+    .titulo-1{
+        width: 100%;
+        height: 80px;
+        border-radius: 50px;
+       
+    }
+   .lista{
+    list-style:inside;
+   }
+   .lista li{
+    color: black;
+    text-transform: capitalize;
+    /*font-family: 'Climate Crisis', cursive;*/
+    font-size: 20px;
+    /*font-family: 'Oswald', sans-serif*/;
+    font-family: 'Rajdhani', sans-serif; ;
+   }
+   .encabezado2{
+    background-image: url(./imagen/fondolujandecuyo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+    width: 100%;}
+
+
+    /*index*/
+  .p1{
+    color: black;
+    text-align:center;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .p2{
+    color: black;
+    text-align:center;
+    font-size: 25px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    
+
+    }
+    .h2-psu{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 30px;
+        color:rgb(0, 195, 255);
+        font-weight: bold;
+        text-decoration: underline;
+        text-align: center;
+        
+    }
+    .p-psu{
+
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 30px;
+        color:black !important;
+        font-weight: bold;
+
+    }
+
+    .carousel-inner img {
+        width: 100%;
+        height: 800px;
+        object-fit: cover;
+    
+    }
+    .imgpromocion{
+        width: 50vh;
+        height: 200px;
+        padding: 20px;
+        
+        
+    }
+    .footer1{
+        
+        height: 100px;
+        width: 100%;
+        
+    }
+    
+    .header-fondo4{
+        background-color: white;
+        width: 100%;
+        height: 10%;
+        
+    }
+    .header-fondo10{
+        padding: 0px;
+        margin: 0px;
+
+
+
+    }
+    .titulo10{
+        background-color: white;
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 45px;
+        color:rgb(0, 195, 255);
+        text-transform:uppercase;
+        
+    }
+
+  
+
+
+    
+  
+   
+   
